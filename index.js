@@ -5,7 +5,7 @@ require("console.table")
 // create the connection information for the sql database
 var connection = mysql.createConnection({
     host: "localhost",
-    port: 3001,
+    //port: 3001,
     user: "root",
     password: "q",
     database: "employees_db",
